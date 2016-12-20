@@ -1,0 +1,7 @@
+{
+    "webRoot": "/Users/wuww/code/comic_web/src/main/webapp/WEB-INF/template",
+    "vars": {
+        "csRoot": "/css/"
+    },
+    "except": ["widget", "sprites"]
+}

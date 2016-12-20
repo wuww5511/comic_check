@@ -1,0 +1,19 @@
+{
+    "name": "dep-check",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "node ./bin/check"
+    },
+    "bin": {
+        "comic-check": "./bin/check",
+        "comic-init": "./bin/init"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "commander": "^2.9.0",
+        "log4js": "^1.0.1"
+    }
+}

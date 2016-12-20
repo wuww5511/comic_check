@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var program = require('commander'),
+    main = require('../index');
+
+program
+    .version('1.0.0')
+    .option("-c, --conf [path]", "config file path")
+    .option("-t, --test [text]", "nothing but testing the commander")
+    .option("-l, --log [level]", "set the level of logger. 0 ERROR   1 INFO")
+    .parse(process.argv);
+
+main.check(program);

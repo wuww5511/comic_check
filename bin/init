@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var fs = require('fs'),
+    path = require('path');
+
+fs.writeFileSync(
+    path.resolve(process.cwd(), "./conf.json"),
+    fs.readFileSync(path.resolve(__dirname, "../template/conf.json"))
+);
